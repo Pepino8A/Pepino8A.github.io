@@ -18,6 +18,7 @@ body {
   float: left;
   font-size: 20px;
   font-weight: bold;
+  margin-left: 40px;
 }
 #header-nav {
   display: block;
@@ -25,7 +26,8 @@ body {
 }
 #header-nav li {
   display: inline;
-  padding-left: 50px;
+  padding-left: 40px;
+  margin-right: 40px;
 }
 .conainer {
   max-width: 1000px;
