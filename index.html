@@ -3,6 +3,7 @@
   <head>
     <title>Mein Blog</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
   </head>
   <body>
     <div id="header">
@@ -29,7 +30,16 @@
               <p> Text </p>
         </div> -->
 
-
+        <div class="post">
+          <div class="post-author">
+            <span>Ich</span>
+            <img src="p.png">
+          </div>
+          <p class="post-date"> Datum </p>
+          <h3 class="post-title"> Titel </h3>
+            <div class="post-conent">
+              <p> <a href="Livecount.html"> Link zum Livecount <a> </p>
+        </div>
 
             <div class="post">
               <div class="post-author">
@@ -95,3 +105,24 @@
 
   </body>
 </html>
+
+<script>
+//radius zu Flächeninhalt
+function berechnerR(radius) {
+  var ergebnis = 2 * radius * Math.PI;
+  console.log(ergebnis);
+  return;
+};
+//durchmesser zu Flächeninhalt
+function berechnerD(durchmesser) {
+  var ergebnis = durchmesser * Math.PI;
+  console.log(ergebnis);
+  return;
+};
+// Flächeninhalt zu Radius
+function aZuR(a) {
+  var ergebnis = a / 2 / Math.PI
+  console.log(ergebnis)
+  return
+}
+</script>
