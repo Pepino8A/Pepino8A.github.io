@@ -80,6 +80,7 @@ a:hover {
 }
 .post-author span {
   margin-left: 16px;
+  color: black;
 }
 .post-date {
    color: #D2D2D2;
@@ -92,7 +93,8 @@ h1, h2, h3, h4 {
   color: #333;
 }
 p {
-  line-height: 1.5
+  line-height: 1.5;
+  color:  black;
 }
 #fussnote {
   color: #999999;
